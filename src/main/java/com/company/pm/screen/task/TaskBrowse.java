@@ -17,6 +17,7 @@ public class TaskBrowse extends StandardLookup<Task> {
 
     @Autowired
     private TaskImportService taskImportService;
+
     @Autowired
     private Notifications notifications;
 
