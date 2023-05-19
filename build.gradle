@@ -36,13 +36,13 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
-    runtimeOnly 'org.hsqldb:hsqldb'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testImplementation 'io.jmix.ui:jmix-ui-test-assist'
     implementation 'io.jmix.translations:jmix-translations-ru'
+    implementation 'org.postgresql:postgresql'
 }
 
 test {
